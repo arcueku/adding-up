@@ -47,3 +47,9 @@ rl.on('close', () => {
   })
   console.log(rankingStrings)
 })
+const count = 5
+console.log('count: %d', count)
+// Prints: count: 5, to stdout
+console.log('count:', count)
+// Prints: count: 5, to stdout
+console.table([{ a: 1, b: 'Y' }, { a: 'Z', b: 2 }]);
